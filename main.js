@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+    
     $('#taskForm').submit(function(event) {
         event.preventDefault();
         var taskName = $('#newTask').val();
